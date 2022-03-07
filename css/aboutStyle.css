@@ -1,0 +1,185 @@
+:root {
+  --primaryColor: #272a27;
+  --seconderyColor: #ec5242;
+  --backGoungColor: #dbdfdbec;
+}
+
+.about-section .home-part1 {
+  background-image: linear-gradient(rgba(206, 205, 205, 0.911), rgba(220, 224, 220, 0.742)), url(../images/aboutBG.jpg);
+  height: 100%;
+}
+
+.about-section .charity-info {
+  background-color: rgba(230, 230, 230, 0.479);
+  border: 3px solid rgba(158, 158, 158, 0.74);
+}
+
+.last-info p {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.text-donator p {
+  font-size: 18px;
+  line-height: 30px;
+  width: 70%;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+.about-section .home-part1 p {
+  width: 100%;
+}
+
+.about-heading {
+  width: 60%;
+  text-align: center;
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-heading::after {
+  content: '';
+  bottom: 0;
+  margin-top: 30px;
+  left: 50%;
+  right: 50%;
+  height: 3px;
+  width: 70px;
+  padding: 0;
+  border-radius: 10px;
+  background-color: var(--seconderyColor);
+}
+
+.about-section .about p {
+  width: 80%;
+  text-align: center;
+}
+
+.about-section .about-logo {
+  width: 100%;
+  padding: 0;
+  border: 1px solid rgba(158, 158, 158, 0.596);
+  margin: 30px 0;
+}
+
+.about-section .about-logo img {
+  width: 250px;
+}
+
+.about-section .about-part2 {
+  padding: 30px;
+  border-bottom: 2px solid rgba(158, 158, 158, 0.596);
+}
+
+.donator {
+  width: 90%;
+  height: 270px;
+  background-color: red;
+  position: relative;
+}
+
+.img-donator {
+  background-color: rgba(255, 0, 0, 0.376);
+  position: absolute;
+  top: 0;
+  font-size: 40px;
+}
+
+.text-donator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-color: rgba(218, 0, 0, 0.65);
+}
+
+.text-donator h3 {
+  font-size: 35px;
+  font-weight: 900;
+  color: white;
+}
+
+.partners {
+  background-color: var(--primaryColor);
+}
+
+.partner .big {
+  width: 200px;
+}
+
+.partner {
+  margin: 10px 20px;
+}
+
+.partners ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.last-info {
+  padding: 50px 10px;
+}
+
+.donators {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  padding: 50px 0 150px 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .about-section .home-part1 p {
+    width: auto;
+  }
+
+  .about-section .about-logo {
+    padding: 50px 10px;
+    width: 300px;
+  }
+
+  .donators {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    padding: 50px 0 150px 0;
+  }
+
+  .donator {
+    width: 500px;
+  }
+
+  .about {
+    width: 55%;
+  }
+
+  .about-section .home-part1 {
+    height: 100%;
+  }
+
+  .donators .anim-donator {
+    opacity: 1;
+    transition: all 0.5s ease;
+    transform: translateX(0) scale(1);
+  }
+
+  .text-donator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(218, 0, 0, 0.65);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(150px) scale(1.099);
+  }
+}

@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&display=swap');
+
+:root {
+  --primaryColor: #272a27;
+  --seconderyColor: #ec5242;
+  --backGoungColor: #dbdfdbec;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  box-shadow: 5px 5px 30px #9b99996b;
+}
+
+.header .socialMedia {
+  display: none;
+  width: 100%;
+  background-color: var(--primaryColor);
+  height: 37px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.media-nav {
+  padding-right: 16%;
+}
+
+.socialMedia a {
+  color: var(--backGoungColor);
+}
+
+.media-link a:hover {
+  color: var(--seconderyColor);
+  transition: all 0.2s ease-in-out;
+}
+
+.header .nav-bar {
+  display: none;
+}
+
+.navBar-items {
+  margin: 0 30px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.navBar-items a:hover {
+  color: var(--seconderyColor);
+  transition: all 0.2s ease-in-out;
+}
+
+.media-link {
+  margin: 0 10px;
+}
+
+.hamburger i {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.home-part1 {
+  padding: 150px 50px;
+  background: linear-gradient(rgba(206, 205, 205, 0.698), rgb(220, 224, 220)), url(../images/bg4.jpeg);
+  background-color: #dbdfdbec;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+.home-intro {
+  color: var(--seconderyColor);
+  margin: 0;
+}
+
+.home-part1 h1 {
+  color: var(--seconderyColor);
+  margin: 10px 0;
+  background-image: url(../images/font.jpg);
+  background-size: cover;
+  background-position: center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 900;
+  width: 100%;
+}
+
+.charity-info {
+  border: 3px solid rgb(255, 255, 255);
+  padding: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  line-height: 30px;
+  font-size: 0.99rem;
+}
+
+.donation h2 {
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation h2::after {
+  content: '';
+  height: 4px;
+  width: 70px;
+  padding: 0;
+  border-radius: 10px;
+  background-color: var(--seconderyColor);
+  margin-top: 20px;
+}
+
+.donation p {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+.home-part2 {
+  background-image: url(../images/bgPart2.png);
+  background-color: #272a31;
+  padding: 20px 0;
+}
+
+.home-part2 img {
+  width: 40px;
+}
+
+.program {
+  width: 95%;
+  box-sizing: content-box;
+  background-color: #acacac1f;
+  margin: 5px 0;
+}
+
+.program span {
+  color: var(--seconderyColor);
+  width: 20%;
+  font-weight: 900;
+  text-align: center;
+}
+
+.program p {
+  width: 50%;
+  padding: 30px 0;
+}
+
+.heading {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.heading::after {
+  content: '';
+  margin: 20px 0;
+  height: 2px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: var(--seconderyColor);
+}
+
+.btn {
+  width: 50%;
+  border: none;
+  background-color: var(--seconderyColor);
+  font-size: 17px;
+  font-weight: 700;
+  padding: 25px 40px;
+  margin: 30px 0;
+}
+
+.card {
+  width: 100%;
+  padding: 20px 5px 20px 30px;
+}
+
+.card h3 {
+  color: var(--seconderyColor);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card h3::after {
+  content: '';
+  margin: 5px 0;
+  width: 50px;
+  height: 2px;
+  background-color: rgba(122, 122, 122, 0.767);
+}
+
+.card h2 {
+  font-weight: 900;
+  padding: 0 5px;
+  margin: 0;
+}
+
+.card-body {
+  width: 70%;
+  padding: 0 15px;
+}
+
+.card-img {
+  width: 120px;
+  height: 140px;
+  position: relative;
+}
+
+.card-img .img-user {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 10px 5px;
+}
+
+.img-bg {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -10;
+  padding: 5px;
+}
+
+.see-more {
+  width: 90%;
+  border: 2px solid rgba(133, 133, 133, 0.589);
+  padding: 10px;
+  margin: 50px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.see-more img {
+  width: 20px;
+  height: 16px;
+  margin: 0 10px;
+}
+
+body .mob-menu {
+  height: 90vh;
+  background-color: transparent;
+}
+
+.mob-menu .socialMedia {
+  display: flex;
+  justify-content: center;
+}
+
+.mob-menu .socialMedia ul {
+  padding: 0;
+}
+
+.mob-menu .hamburger {
+  display: none;
+}
+
+.mob-menu .nav-bar {
+  display: flex;
+  padding-top: 60px;
+  border-radius: 0 0 100% 0;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+.mob-menu .nav-bar ul {
+  margin: 20px 0;
+}
+
+.mob-menu .navBar-items {
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.mob-menu .navBar-items:hover {
+  font-weight: 700;
+  transform: translateX(-20px);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.mob-menu .navBar-items a:hover {
+  color: var(--seconderyColor);
+}
+
+.cancelBtn {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  main .home-part1 h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+    width: 100%;
+  }
+
+  .home-part1 {
+    padding: 100px 20px;
+  }
+
+  .card {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .card-body {
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card .card-body h3::after {
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  .card-img {
+    width: 70%;
+    height: 200px;
+  }
+
+  .card-img .img-bg {
+    width: 70%;
+    height: 70%;
+  }
+
+  .btn {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .header .scroll-navBar {
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    height: 70px;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .header .nav-bar {
+    display: flex;
+  }
+
+  .header .socialMedia {
+    display: flex;
+  }
+
+  .cancelBtn,
+  .hamburger {
+    display: none;
+  }
+
+  main .home-part1 {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 300px 15% 100px 15%;
+  }
+
+  .home-intro {
+    width: 50%;
+  }
+
+  main .home-part1 .home-intro {
+    font-size: 35px;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  main .home-part1 h1 {
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 900;
+    width: 88%;
+  }
+
+  .home-part2 .programs {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+  }
+
+  .home-part2 .program {
+    border-radius: 3px;
+    border: 3px solid rgba(255, 255, 255, 0);
+    display: flex;
+    margin: 3px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 230px;
+  }
+
+  .program:hover {
+    border: 3px solid rgba(255, 255, 255, 0.87);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .program p {
+    width: 80%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .program img {
+    width: 55px;
+  }
+
+  .program span {
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  .see-more {
+    width: 30%;
+  }
+
+  .charity-info {
+    width: 60%;
+  }
+
+  .donation {
+    margin: 30px 0;
+    width: 50%;
+  }
+
+  .donation p {
+    width: 80%;
+    margin: auto;
+  }
+
+  .home-part3 {
+    background-color: transparent;
+  }
+
+  .home-part3 .team {
+    width: 95%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+  }
+
+  .home-part3 .team li {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .navBar-items:last-child {
+    border: 4px solid var(--seconderyColor);
+    padding: 10px 15px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  main .home-part1 h1 {
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 900;
+    width: 95%;
+  }
+
+  .charity-info {
+    width: 80%;
+    border: 3px solid rgba(224, 222, 222, 0.966);
+    padding: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    line-height: 30px;
+    font-size: 0.99rem;
+  }
+}
