@@ -62,7 +62,7 @@
 
 .home-part1 {
   padding: 150px 50px;
-  background: linear-gradient(rgba(206, 205, 205, 0.698), rgb(220, 224, 220)), url(../images/bg4.jpeg);
+  background: linear-gradient(rgba(206, 205, 205, 0.698), rgb(220, 224, 220)), url(../images/ukraine\ childe.jpeg);
   background-color: #dbdfdbec;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,7 +94,7 @@
   padding: 20px;
   font-weight: bold;
   margin: 20px 0;
-  line-height: 30px;
+  line-height: 15px;
   font-size: 0.99rem;
 }
 
