@@ -183,3 +183,6 @@
     transform: translateY(150px) scale(1.099);
   }
 }
+.logo{
+  width: 300px;
+}
