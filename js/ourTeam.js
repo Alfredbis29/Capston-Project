@@ -3,7 +3,7 @@ const teamData = [
     id: 1,
     name: 'Alfred Bisimwa',
     picture: './images/alfred.jpg',
-    info: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+    info: 'Software Deloper at Microverse',
     moreInfo:
       ' Lorem ipsum, dolor sit amet consectetur adipisicing elit.Perferendis asperiores, quo distinctio, atque, quasi nobis hic',
   },
