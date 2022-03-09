@@ -53,8 +53,7 @@ const sectionOneObserver = new IntersectionObserver((entries) => {
       header.style.backgroundColor = 'transparent';
     }
   });
-},
-sectionOneOptions);
+}, sectionOneOptions);
 
 sectionOneObserver.observe(homePart1);
 
