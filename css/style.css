@@ -461,11 +461,6 @@ body .mob-menu {
     height: 100%;
   }
 
-  .logo a img {
-    padding-top: 3px;
-    width: 100%;
-  }
-
   .program img {
     width: 55px;
   }
@@ -473,6 +468,11 @@ body .mob-menu {
   .program span {
     width: 100%;
     padding-top: 15px;
+  }
+
+  .logo a img {
+    padding-top: 3px;
+    width: 100%;
   }
 
   .see-more {
