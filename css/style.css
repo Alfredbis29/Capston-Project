@@ -531,9 +531,9 @@ height: 100%;
 }
 
 .logo1 a img {
- padding-top: 9px;
+ padding-top: 3px;
 width: 100%;
-height: 85%;
+height: auto;
 } 
 
 /* #nav-bar{
