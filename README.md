@@ -1,41 +1,76 @@
-# Capston-Project
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-**Project requirements**
 
-- I personalize the content of your page. Choose a topic that is different than the one in the original design.
-- 
-- I follow these [design guidelines](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), including:
+# Save One Today, To See A Better Future
 
-**Colors.**
+## Description
 
-- Typography: font face, size, and weight.
-- Layout: composition and space between elements.
-- The pages look almost identical to the original design. 
-`
- **I Applied CSS framework (for example Bootstrap) for styling my capstone project.**`
- **I build only these 2 pages:**
+Save One Today, To See A Better is website Which helps to save children and their families for a better future, We champion the rights and interests of children worldwide, putting the most vulnerable children first.
+> The main purposes of this website are :
 
-- The home page.
-- The about page.
+- Save children during hard time or nation conflit.
+- Provide home for Homeless children
+- Build an Orphanage for abandonned and orphans Children
 
-**All those two pages are identic to both Version Mobile and Desktop:**
+> ## see Here
+>
+> | Mobile Version                                                                                                                          | Desktop version                                                                                                                         |
+> | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------![Screen Shot 2022-03-09 at 17 54 00](https://user-images.githubusercontent.com/88894525/157478652-d8234cc7-7801-464e-b8f1-1f8837c4a48e.png)
+------------------![Screen Shot 2022-03-09 at 17 56 38](https://user-images.githubusercontent.com/88894525/157478839-d3b3f802-bfd1-4fb5-88ae-696f7cf2b102.png)
+------------------------------------ |
+> |        | 
 
--  For Mobile: up to 768px wide.
-- For Desktop: 768px or wider.
+## Built With
 
-Interactions
+This project is build with:
 
-**Links**
+- HTML;
+- CSS;
+- JavaScript.
 
-- The home page  has a link in the menu to the about page.
-- The logo in the header links to the home page.
+[Link Demo](https://alfredbis29.github.io/Capston-Project/)
 
-**Mobile menu**
 
-- When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.
-- There are no guidelines for the mobile menu in the docs, but you should implement it so it is consistent with the design (colors, typography, spacings, etc.).
-- The mobile menu should have a close (X) button that closes the menu.
-- Dynamic page
-- 
-- The section "Featured speakers" should be created dynamically in JavaScript.
-- You should use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.
+## Getting Started
+
+To get the content of this project locally you need to run this command in your terminal:
+
+- `git@github.com:Alfredbis29/Capston-Project.git`
+
+## Test
+
+For tracking linter errors locally you need to follow these steps:
+
+- After cloning the project you need to run this command
+
+  > `npm install`
+  > This command will download all the dependancies of the project
+
+- For tracking the linter errors in HTML file run:
+
+  > `npx hint .`
+
+- For tracking the linter errors in CSS file run:
+  > `npx stylelint "\*_/_.{css,scss}"`
+
+- And For tracking the linter errors in JavaScript file run:
+
+  > `npx eslint .`
+## Author
+
+👤 **Alfred Bisimwa**
+
+- GitHub: [@alfredbis29](https://github.com/Alfredbis29)
+- Twitter: [@alfredbisimwa](https://twitter.com/AlfredBisimwa1)
+- LinkedIn: [AlfredBisimwa](https://www.linkedin.com/in/kalumuna-bisimwa-0501a81a8/)
+
+## :handshake: Contributing
+
+Feel free to check the [issues page](git@github.com:Alfredbis29/Capston-Project.git/issue)
+
+## Show your support
+
+Give a :star: if you like this project!
+
+## Acknowledgments
+- Design and inspiration by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
