@@ -30,7 +30,8 @@ This project is build with:
 
 [Link Demo](https://alfredbis29.github.io/Capston-Project/)
 
-
+## if you want more explanation about this project check on this video
+[loom video ](https://www.loom.com/share/4e31b0cf671748c0b50b4fcb44bc91aa)
 ## Getting Started
 
 To get the content of this project locally you need to run this command in your terminal:
