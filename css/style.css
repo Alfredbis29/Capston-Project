@@ -523,7 +523,7 @@ body .mob-menu {
 .logo1 {
   width: 70px;
   margin: 3px;
- height:auto;
+ height: auto;
 } 
  .logo1 a {
 width: 100%;
@@ -533,7 +533,6 @@ height: 100%;
 .logo1 a img {
  padding-top: 3px;
 width: 100%;
-height: auto;
 } 
 
 /* #nav-bar{
