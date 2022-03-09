@@ -65,7 +65,6 @@
   padding: 0;
   border: 1px solid rgba(158, 158, 158, 0.596);
   margin: 30px 0;
-
 }
 
 .about-section .about-logo img {
@@ -127,6 +126,7 @@
 .last-info {
   padding: 50px 10px;
 }
+
 .donators {
   width: 100%;
   display: flex;

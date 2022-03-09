@@ -450,6 +450,22 @@ body .mob-menu {
     margin: 0;
   }
 
+  .logo {
+    width: 70px;
+    margin: 3px;
+    height: auto;
+  }
+
+  .logo a {
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo a img {
+    padding-top: 3px;
+    width: 100%;
+  }
+
   .program img {
     width: 55px;
   }
@@ -519,22 +535,3 @@ body .mob-menu {
     font-size: 0.99rem;
   }
 }
-
-.logo1 {
-  width: 70px;
-  margin: 3px;
- height: auto;
-} 
- .logo1 a {
-width: 100%;
-height: 100%;
-}
-
-.logo1 a img {
- padding-top: 3px;
-width: 100%;
-} 
-
-/* #nav-bar{
-  position: relative;
-} */
