@@ -65,6 +65,7 @@
   padding: 0;
   border: 1px solid rgba(158, 158, 158, 0.596);
   margin: 30px 0;
+
 }
 
 .about-section .about-logo img {
@@ -72,7 +73,7 @@
 }
 
 .about-section .about-part2 {
-  padding: 30px;
+  padding: 15px;
   border-bottom: 2px solid rgba(158, 158, 158, 0.596);
 }
 
@@ -126,7 +127,6 @@
 .last-info {
   padding: 50px 10px;
 }
-
 .donators {
   width: 100%;
   display: flex;
@@ -142,7 +142,7 @@
   }
 
   .about-section .about-logo {
-    padding: 50px 10px;
+    padding: 20px 5px;
     width: 300px;
   }
 
@@ -182,8 +182,4 @@
     transition: all 0.5s ease-in-out;
     transform: translateY(150px) scale(1.099);
   }
-}
-
-.logo {
-  width: 300px;
 }
