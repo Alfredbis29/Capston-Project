@@ -79,7 +79,7 @@
 .donator {
   width: 90%;
   height: 270px;
-  background-color: crimson;
+  background-color: rgba(220, 20, 60, 0.623);
   position: relative;
 }
 
@@ -95,7 +95,7 @@
   top: 0;
   left: 0;
   opacity: 1;
-  background-color: crimson;
+  background-color: rgba(220, 20, 60, 0.349);
 }
 
 .text-donator h3 {
