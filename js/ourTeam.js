@@ -3,7 +3,7 @@ const teamData = [
     id: 1,
     name: 'Alfred Bisimwa',
     picture: './images/alfred.jpg',
-    info: 'Software Deloper at Microverse',
+    info: 'Software Developer. Stack: JavaScript | React | Ruby | Rails | Redux. Improving open-source projects, Talks about #softwaredevelopment',
     moreInfo:
       ' Lorem ipsum, dolor sit amet consectetur adipisicing elit.Perferendis asperiores, quo distinctio, atque, quasi nobis hic',
   },
