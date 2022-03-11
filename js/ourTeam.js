@@ -9,7 +9,7 @@ const teamData = [
   },
   {
     id: 2,
-    name: 'Dr David Bisimwa',
+    name: 'Dr David',
     picture: './images/dvd.jpeg',
     info: "Specialist in laboratory Medicine (Pathology) at CHUM - Centre hospitalier de l'Université de Montréal ",
     moreInfo:
