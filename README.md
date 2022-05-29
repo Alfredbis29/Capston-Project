@@ -26,7 +26,7 @@ This project is build with:
 - CSS;
 - JavaScript.
 
-[Link Demo](https://alfredbis29.github.io/Capston-Project/)
+[Link Demo](https://dreamy-sorbet-ffd8a3.netlify.app)
 
 ## if you want more explanation about this project check on this video
 
